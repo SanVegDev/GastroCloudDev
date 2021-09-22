@@ -1,0 +1,725 @@
+/*.card.bg-primary,
+.card .card-header-primary,
+.card.card-rotate.bg-primary .back,
+.card.card-rotate.bg-primary .front {
+    background: transparent;
+}
+
+.card .card-header-primary {
+    box-shadow: 0px;
+}
+
+.card-login .form {
+    min-height: 310px;
+}
+*/
+
+
+
+.hidden {
+    display: none !important;
+}
+
+.btn.btn-primary {
+    color: #fff;
+    background-color: #333;
+    border-color: #333;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.intec-logo {
+    max-width: 100%;
+}
+
+
+.signed {
+    /*font-family: Freestyle Script!important;
+    font-size: 31px !important;*/
+}
+
+
+footer .copyright {
+    padding: 0;
+}
+
+table.dataTable {
+    clear: both !important;
+    margin-top: 6px !important;
+    margin-bottom: 6px !important;
+    max-width: none !important;
+    border-collapse: separate !important;
+    border-spacing: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+.btn.btn-primary.focus,
+.btn.btn-primary:focus,
+.btn.btn-primary:hover {
+    background-color: #000000 !important;
+    border-color: #ffffff !important;
+    color: white !important;
+}
+
+.btn.btn-primary:active,
+.btn.btn-primary:focus,
+.btn.btn-primary:hover {
+    box-shadow: 0 14px 26px -12px rgba(0, 0, 0, 0.42), 0 4px 23px 0 rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(0, 0, 0, 0.2) !important;
+    color: white !important;
+}
+
+.nav-pills .nav-item .nav-link.active {
+    background-color: #333;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, .2), 0 13px 24px -11px rgba(0, 0, 0, 0.6);
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.select-width {
+    width: 70% !important;
+}
+
+.margin-top {
+    margin-top: 10px;
+}
+
+.margin-right {
+    margin-right: 10px;
+}
+
+.footer-page {
+    position: fixed;
+    bottom: 0px;
+}
+
+.signup-page .card-signup {
+    border-radius: 6px;
+    box-shadow: 0 16px 24px 2px rgba(0,0,0,.14), 0 6px 30px 5px rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2);
+    padding: 40px 0;
+}
+
+.top-menos-20 {
+    margin-top: -20px !important;
+}
+
+.logo-image {
+    width: 86px;
+    height: 86px;
+    margin-top: -20px;
+}
+
+.separator-hr {
+    border-top: 5px solid rgba(0, 0, 0, .1);
+}
+.margin-10{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.modal-footer > :not(:last-child) {
+    margin-right: .55rem !important;
+}
+
+.badge {
+    padding: 10px;
+}
+
+#logo-subheader {
+    float: right;
+    margin-top: -10px;
+    height: 100px;
+}
+
+
+.brand-letter {
+    color: #999 !important;
+    letter-spacing: 9px;
+}
+
+.padding-left {
+    padding-left: 10px;
+}
+
+.margin-bottom-nav {
+    margin-bottom: -35px;
+}
+
+.menu-icon {
+    width: 70px;
+    height: 70px;
+}
+
+#map {
+    margin-top: 0px;
+    height: calc(100vh - 165px);
+}
+
+div.comentario > a {
+    text-decoration: underline !important;
+}
+
+
+.modal .modal-dialog {
+    margin-top: 80px;
+}
+
+.modal .modal-dialog-checklist {
+    margin-top: 10px;
+}
+
+.start, .setup {
+    display: none;
+}
+
+.modal-body-checklist {
+    max-height: inherit;
+    overflow-y: auto;
+    padding-top: 0px !important;
+}
+
+.check-setup {
+    font-size: 35px;
+    font-weight: 100;
+    color: #dcdcdc;
+    text-align: center;
+}
+
+.form-check .form-check-input:checked ~ .check-setup {
+    color: #00917d !important;
+}
+
+.tycket-type-select{
+    font-size: 50px;
+    font-weight: 100;
+    color: #dcdcdc;
+    text-align: center;
+}
+
+.check-type-input:checked ~ .tycket-type-select {
+    color: #00917d !important;
+}
+
+.form-check .form-check-label-select {
+    cursor: pointer;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 5px;
+    padding-left: 5px;
+    position: relative;
+}
+
+.form-check-with-title .form-check-label-select-with-title {
+    padding-left: 15px;
+}
+
+
+
+.modal-dialog .modal-body-buttons {
+    padding: 0px 24px 0px !important;
+    margin-top: -10px;
+}
+
+.checklist-table > tbody > tr > td, .checklist > tbody > tr > th, .checklist > tfoot > tr > td, .checklist > tfoot > tr > th, .checklist > thead > tr > td, .checklist > thead > tr > th {
+    padding: 2px 8px;
+    vertical-align: middle;
+    border-color: #ddd;
+}
+
+
+
+.info .info-title {
+    color: #3c4858;
+    margin: 0;
+}
+
+.info p {
+    color: #3c4858;
+    margin: 0;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.info {
+    max-width: 360px;
+    margin: 0 auto;
+    padding: 00px 0 0px;
+}
+
+.footer{
+    position:fixed;
+    bottom:10px;
+    z-index:1;
+    right:20px;
+}
+
+
+
+.modal-compact {
+    max-height: calc(100vh - 270px);
+    overflow-y: auto;
+}
+
+.general-action {
+    padding-bottom: 20px !important;
+}
+
+.login-card{
+    padding-bottom:1px;
+}
+
+.quantity {
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.card-collapse .card-header {
+    padding: 20px;
+}
+
+.menu-icon > p {
+    font-size: 30px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.StackPanel-index {
+    display: table;
+    min-height: 66px;
+    text-align: center;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.StackPanel-curso {
+    display: table;
+    min-height: 116px;
+}
+
+.section-table {
+    display: block;
+}
+
+.section-mobile {
+    display: none;
+}
+
+.modal-full {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+.isALink {
+    cursor: pointer;
+}
+
+
+
+.background-page {
+    z-index: 1;
+    margin-top: -50px;
+}
+
+
+.margin-top-50 {
+    margin-top: 50px;
+}
+
+.map-back {
+    background-color: rgba(0,0,0,0) !important;
+    color: white;
+}
+
+.map .modal-header .close:focus, .modal .modal-header .close:hover {
+    opacity: 1;
+}
+
+#map {
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 20px;
+}
+
+.map .modal-content {
+    box-shadow: none;
+    border-radius: 6px;
+    border: none;
+}
+
+.navbar-color-on-scroll {
+    font-size: 70px;
+}
+
+.bootstrap-select {
+    width: 100% !important;
+    margin-top: -0px;
+}
+
+.btn.active, .btn.btn-default.active, .btn.btn-default:active, .btn:active, .open > .btn.btn-default.dropdown-toggle, .open > .btn.dropdown-toggle, .show > .btn.btn-default.dropdown-toggle, .show > .btn.dropdown-toggle {
+    background-color: transparent !important;
+}
+
+.dark-background {
+    background: rgba(0,0,0,0.18823529411764706) !important;
+}
+
+.map .modal-header .close {
+    color: #fff;
+}
+
+
+.text-md {
+    font-size: 2em;
+}
+
+#register-button {
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+.cart-table-view > tr > td > img {
+    width: 38px;
+    height: 38px;
+}
+
+.comments-area {
+    max-height: calc(100vh - 480px);
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.format-row-schedule {
+    padding: 0px 10px !important;
+    height:90px!important;
+}
+
+
+.setup-schedule-table > tbody > tr > td > .card {
+    border: 0;
+    margin-bottom: 2px !important;
+    margin-top: 2px!important;
+}
+
+.boder-bottom-dark {
+    border-bottom-color: #000000!important;
+}
+
+.setup-schedule-table > tbody > tr > th > .card {
+    border: 0;
+    margin-bottom: 2px !important;
+    margin-top: 2px !important;
+}
+
+.setup-badge {
+    position: absolute;
+    border: 1px solid #2d2d2d;
+    font-size: 9px;
+    background: #fff700;
+    color: #000;
+}
+
+.setup-counters {
+    margin-top: -27px;
+}
+
+#hdsetup-schedule-table {
+    z-index: 999;
+    background-color: white;
+}
+
+#hdpm-schedule-table {
+    z-index: 999;
+    background-color: white;
+}
+
+.schedule-Hidden {
+    background-color: rgba(0,0,0,0.18823529411764706) !important;
+}
+
+.schedule-Shown {
+    border: 1px solid #c5c5c5 !important;
+    padding: 5px !important;
+    box-shadow: 5px 10px rgba(0,0,0,0.2) !important;
+}
+
+@media only screen and (min-width:1000px) {
+    .comments-area {
+        max-height: calc(100vh - 480px);
+        overflow-y: auto;
+        padding: 20px;
+        margin: 0px -50px;
+    }
+
+    .buttonInForm {
+        margin-bottom: -10px;
+        margin-top: -5px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .comments-area {
+        max-height: inherit;
+        padding: 20px;
+    }
+    .main-panel > .content {
+        margin-top: 10px;
+        padding: 30px 0px!important;
+        min-height: calc(100vh - 123px);
+    }
+
+    .card .card-body, .card .card-footer {
+        padding: .9375rem 1.0rem!important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #logo-subheader {
+        text-align: center;
+        float: inherit;
+    }
+
+    /*.comments-area {
+        max-height: calc(100vh - 480px);
+        overflow-y: auto;
+        padding: 20px;
+        margin: 0px 0px;
+    }*/
+
+    .media-area {
+        padding: 10px;
+    }
+
+    .media-post {
+        padding: 20px;
+    }
+
+    .container-fluid {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    /*.card .card-body, .card .card-footer {
+        padding: .9375rem 1rem!important;
+    }*/
+    /*.col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-auto {
+        padding-right: 0px;
+        padding-left: 0px;
+    }*/
+
+    .section-table {
+        display: none;
+    }
+
+    .section-mobile {
+        display: block;
+    }
+
+    .modal-full {
+        min-width: 70%;
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+}
+
+@media (min-width: 776px) {
+    .modal-dialog-checklist {
+        max-width: 740px;
+        margin: 1.75rem auto;
+    }
+
+    
+}
+@media (max-width: 776px) {
+    .media-post {
+        padding: 20px;
+    }
+}
+
+
+/* CELULARES  */
+@media (max-height: 676px) {
+    .intec-logo {
+        max-width: 60%;
+    }
+    
+    .brand-letter {
+        letter-spacing: 6px;
+    }
+
+    .input-group .input-group-text {
+        padding: 0 10px 0px 0px;
+    }
+
+    .signup-page .page-header .container {
+        padding-top: 13vh;
+    }
+
+    .index-page .navbar-transparent, .landing-page .navbar-transparent, .login-page .navbar-transparent, .presentation-page .navbar-transparent, .profile-page .navbar-transparent, .signup-page .navbar-transparent {
+        padding-top: 0px;
+    }
+
+    .footer {
+        bottom: 0px;
+        right: 10px;
+    }
+
+    .card .card-body, .card .card-footer {
+        padding: 0 20px 0 20px;
+    }
+    
+}
+
+
+/* IPHONE 5 */
+@media (max-height: 576px) {
+    .intec-logo {
+        max-width: 60%;
+    }
+
+    .brand-letter {
+        letter-spacing: 6px;
+    }
+
+    .input-group .input-group-text {
+        padding: 0 10px 0px 0px;
+    }
+
+    .signup-page .page-header .container {
+        padding-top: 5vh;
+    }
+
+    .index-page .navbar-transparent, .landing-page .navbar-transparent, .login-page .navbar-transparent, .presentation-page .navbar-transparent, .profile-page .navbar-transparent, .signup-page .navbar-transparent {
+        padding-top: 0px;
+    }
+
+    .footer {
+        bottom: 0px;
+        right: 10px;
+    }
+
+    .card .card-body, .card .card-footer {
+        padding: 0 20px 0 20px;
+    }
+}
+
+
+
+
+
+/*sssss*/
+
+
+/*sssss*/
+.right-separator {
+    margin-right: 15px !important;
+}
+
+.navbar.navbar-transparent {
+    color: #333;
+}
+
+table.dataTable > tbody > tr > td {
+    padding: 10px !important;
+}
+
+table.dataTable > thead > tr > th {
+    /*font-size: 16px !important;*/
+    padding: 10px !important;
+}
+
+table.dataTable.dtr-inline.collapsed > tbody > tr[role=row] > td:first-child, table.dataTable.dtr-inline.collapsed > tbody > tr[role=row] > th:first-child {
+    padding-left: 30px !important;
+}
+
+.main-panel > .content-second {
+    padding: 30px 15px;
+    min-height: 0;
+}
+
+
+#notification-bar {
+    width: 300px;
+    max-height: 651px;
+    overflow-y: auto;
+}
+
+    #notification-bar > hr {
+        margin: 5px;
+    }
+
+    #notification-bar > div > table > tbody > tr > td > i {
+        margin-right: 10px;
+        font-size: 30px;
+        color: #000000;
+    }
+
+    #notification-bar > div > table > tbody > tr > td > h3 {
+        margin: 0px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    #notification-bar > div > table > tbody > tr > td > .body {
+        margin: 0px;
+        font-size: 12px;
+        color: #000000;
+        line-height: 15px;
+    }
+
+    #notification-bar > .isALink {
+        padding: 5px 15px !important;
+    }
+
+        #notification-bar > .isALink:hover {
+            background: rgba(0,144,122,0.1803921568627451) !important;
+        }
+
+
+
+    #notification-bar > div > table > tbody > tr > td > .date {
+        color: gray;
+        font-size: 10px;
+        margin: 0px;
+    }
+
+.font-20 {
+    font-size: 20px !important;
+}
+
+.nav-icons i {
+    font-size: 43px !important;
+    padding: 0px 0 !important;
+}
+
+@charset "UTF-8";
+
+.fileinput-button {
+    position: relative;
+    overflow: hidden;
+    display: inline-block
+}
+
+    .fileinput-button input {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 0;
+        opacity: 0;
+        -ms-filter: 'alpha(opacity=0)';
+        font-size: 200px;
+        direction: ltr;
+        cursor: pointer
+    }

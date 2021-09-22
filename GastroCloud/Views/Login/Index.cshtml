@@ -1,0 +1,122 @@
+﻿@{
+
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESTAURANT NAME</title>
+    <link rel="icon" type="image/png" href="~/Content/IMG/Settings/ICON.png">
+    <link href="~/Content/CSS/Template/Material/material-kit.css?v=2.1.1" rel="stylesheet" />
+    @Styles.Render("~/content/css")
+    @Scripts.Render("~/bundles/mainresources")
+</head>
+<body class="signup-page sidebar-collapse">
+
+    <!-- Extra details for Live View on GitHub Pages -->
+    <!-- End Google Tag Manager (noscript) -->
+    <nav class="navbar  navbar-transparent fixed-top navbar-expand-lg " color-on-scroll="100" id="sectionsNav">
+        <div class="container">
+            <div class="navbar-translate">
+                <a class="navbar-brand text-white" href="#">
+                    @System.Configuration.ConfigurationManager.AppSettings["restaurantName"]
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="page-header header-filter" filter-color="dark" style="background-image: url(../../Content/IMG/Template/background.jpg); background-size: cover; background-position: top center;">
+        <div class="bgring" >
+            <div class="Allcenter">
+                <img class="Allcenter" style="left:44%" width="250" src="~/Content/IMG/Template/ring.gif" alt="Alternate Text" />
+                <h3 class="Title text-uppercase" style="margin-top: 250px;" id="title-ring"> </h3>
+            </div>
+        </div>
+        <div class="container">
+            <div class="col-md-6 ml-auto mr-auto login-card">
+                <div class="card card-signup text-center">
+                    <p class=" no-margin"><img class="intec-logo" width="300" src="~/Content/IMG/Template/main_logotipo.png" alt="Logotipo"> </p>
+                    <br>
+                    <div class="card-body">
+                        <div id="sys-view" class="row">
+                            <div class="col-md-6">
+                                <div class="card isALink sys-select" data-sys="1">
+                                    <div class="card-body">
+                                        <i class="md-icon material-icons">admin_panel_settings</i>
+                                        <p>ADMINISTRATIVO</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card isALink sys-select" data-sys="2">
+                                    <div class="card-body">
+                                        <i class="md-icon material-icons text-accent">store</i>
+                                        <p>OPERATIVO</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card isALink sys-select" data-sys="3">
+                                    <div class="card-body">
+                                        <i class="md-icon material-icons text-accent">event</i>
+                                        <p>COMANDERO</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card isALink sys-select" data-sys="4">
+                                    <div class="card-body">
+                                        <i class="md-icon material-icons">mobile_friendly</i>
+                                        <p>MENU</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="login-view" class="hidden">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text"><i class="material-icons">person</i></div>
+                                    </div>
+                                    <input id="user" type="text" class="form-control login-key" placeholder="Usuario...">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text"><i class="material-icons">lock_outline</i></div>
+                                    </div>
+                                    <input id="password" type="password" placeholder="Contraseña..." class="form-control login-key">
+                                </div>
+                            </div> 
+                            <a id="btn-back" class="btn vibrate btn-secondary" href="#"> <i class="material-icons">keyboard_backspace</i> VOLVER</a>
+                            <a id="btn-login" class="btn vibrate btn-primary" href="#"> Ingresar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <footer class="footer ">
+            <div class="container footer-page">
+                <div class="copyright float-right">
+                    &copy;
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script>, by <a class="text-accent">GastroCloud</a> development.
+                </div>
+            </div>
+        </footer>
+
+        <input id="urlGC" type="hidden" value="@System.Configuration.ConfigurationManager.AppSettings["urlGC"]">
+        @Scripts.Render("~/bundles/material")
+        @Scripts.Render("~/bundles/bootstrap")
+        @Scripts.Render("~/bundles/alerts")
+        @Scripts.Render("~/bundles/useful")
+        @Scripts.Render("~/Scripts/Class/login.js")
+    </div>
+</body>
+</html>

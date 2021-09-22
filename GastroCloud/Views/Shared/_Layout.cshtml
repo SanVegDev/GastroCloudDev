@@ -1,0 +1,232 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="~/Content/IMG/Settings/ICON.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Last-Modified" content="0">
+    <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <title> GC | @ViewBag.Title</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+    <link href="~/Content/CSS/Template/Material/material-kit.css?v=2.1.1" rel="stylesheet" />
+    <link href="~/Content/CSS/Template/Dashboard/material-dashboard.min.css?v=2.1.0" rel="stylesheet" />
+    @Styles.Render("~/content/css")
+    @Scripts.Render("~/bundles/mainresources")
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="sidebar" data-color="azure" data-background-color="black" data-image="../../Content/IMG/Template/background.jpg">
+            <div class="logo">
+                <a href="#" class="simple-text logo-mini"> <i class="material-icons" aria-hidden="true">language</i> </a> <a href="#" class="simple-text logo-normal">
+                    @System.Configuration.ConfigurationManager.AppSettings["restaurantName"]
+                </a>
+            </div>
+            <div class="sidebar-wrapper">
+                <div class="user">
+                    <div class="photo"> <i class="material-icons text-white">face</i></div>
+                    <div class="user-info">
+                        <a data-toggle="collapse" href="#logout-view" class="username">
+                            <span>
+                                User Name
+                                <b class="caret"></b>
+                            </span>
+                        </a>
+                        <div class="collapse" id="logout-view">
+                            <ul class="nav">
+                                <li class="nav-item btn-logout">
+                                    <a class="nav-link load" href="#"> <span class="sidebar-mini"> <i class="material-icons">logout</i> </span> <span class="sidebar-normal"> Cerrar Sesión </span> </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="user">
+                    <div class="photo"> <i class="material-icons text-white">settings</i></div>
+                    <div class="user-info">
+                        <a data-toggle="collapse" href="#setting-view" class="username">
+                            <span>
+                                Productos
+                                <b class="caret"></b>
+                            </span>
+                        </a>
+                        <div class="collapse" id="setting-view">
+                            <ul class="nav">
+                                <li class="nav-item partnumber-manager ">
+                                    <a class="nav-link load" href="#">
+                                        <span class="sidebar-mini"><i class="material-icons">wb_iridescent</i></span>
+                                        <p class="sidebar-normal">Productos</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item mold-manager">
+                                    <a class="nav-link load" href="#">
+                                        <span class="sidebar-mini"><i class="material-icons">account_balance_wallet</i></span>
+                                        <p class="sidebar-normal">Personalizados</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="user">
+                    <div class="photo"> <i class="material-icons text-white">phonelink_setup</i></div>
+                    <div class="user-info">
+                        <a data-toggle="collapse" href="#orders-view" class="username">
+                            <span>
+                                Configuraciones
+                                <b class="caret"></b>
+                            </span>
+                        </a>
+                        <div class="collapse" id="orders-view">
+                            <ul class="nav">
+
+                                <li class="nav-item order-manager ">
+                                    <a class="nav-link load" href="#">
+                                        <span class="sidebar-mini"><i class="material-icons">assignment_late</i></span>
+                                        <p class="sidebar-normal"> General</p>
+                                    </a>
+                                </li>
+
+                                <li class="nav-item ordinary-manager ">
+                                    <a class="nav-link load" href="#">
+                                        <span class="sidebar-mini">
+                                            <i class="material-icons">assignment</i>
+                                        </span>
+                                        <p class="sidebar-normal"> Unidades de medida</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item ordinary-manager ">
+                                    <a class="nav-link load" href="#">
+                                        <span class="sidebar-mini">
+                                            <i class="material-icons">assignment</i>
+                                        </span>
+                                        <p class="sidebar-normal"> Descuentos</p>
+                                    </a>
+                                </li>
+
+                                <li class="nav-item ordinary-manager ">
+                                    <a class="nav-link load" href="#">
+                                        <span class="sidebar-mini">
+                                            <i class="material-icons">assignment</i>
+                                        </span>
+                                        <p class="sidebar-normal"> Impresoras</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="user">
+                    <div class="photo"> <i class="material-icons text-white">widgets</i></div>
+                    <div class="user-info">
+                        <a data-toggle="collapse" href="#operator-view" class="username">
+                            <span>
+                                Reportes
+                                <b class="caret"></b>
+                            </span>
+                        </a>
+                        <div class="collapse" id="operator-view">
+                            <ul class="nav">
+                                <li class="nav-item operator-trainning">
+                                    <a class="nav-link load" href="#">
+                                        <span class="sidebar-mini"><i class="material-icons">person</i></span>
+                                        <p class="sidebar-normal"> Caja</p>
+                                    </a>
+                                </li>
+
+                                <li class="nav-item report-trainning">
+                                    <a class="nav-link load" href="#">
+                                        <span class="sidebar-mini"><i class="material-icons">person</i></span>
+                                        <p class="sidebar-normal"> Ventas</p>
+                                    </a>
+                                </li>
+
+                                <li class="nav-item operator-production">
+                                    <a class="nav-link load" href="#">
+                                        <i class="fa fa-cube" aria-hidden="true"></i>
+                                        <p class="sidebar-normal">Costeo</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-panel">
+            <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
+                <div class="container-fluid">
+                    <div class="navbar-wrapper">
+                        <div class="navbar-minimize">
+                            <button id="minimizeSidebar" class="btn btn-just-icon btn-white  btn-round"> <i class="material-icons text_align-center visible-on-sidebar-regular">more_vert</i> <i class="material-icons design_bullet-list-67 visible-on-sidebar-mini">view_list</i> </button>
+                        </div>
+                        <a class="navbar-brand" href="javascript:window.history.back();">@ViewBag.Title</a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="navbar-toggler-icon icon-bar"></span> <span class="navbar-toggler-icon icon-bar"></span> <span class="navbar-toggler-icon icon-bar"></span> </button>
+                    <div class="collapse navbar-collapse justify-content-end">
+                        <form class="navbar-form"></form>
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="notification-bar" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="material-icons">notifications</i>
+                                    <span class="notification">0</span>
+                                    <p class="d-lg-none d-md-block"> Notificaciones </p>
+                                </a>
+                                <div id="notification-bar" class="dropdown-menu dropdown-menu-right" aria-labelledby="notification">
+                                </div>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#pablo" id="navbarDropdownProfile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="material-icons">settings</i>
+                                    <p class="d-lg-none d-md-block"> Configuración </p>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownProfile">
+                                    <a class="dropdown-item btn-logout load" href="#"><i class="material-icons">logout</i> Cerrar Sesión</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="bgring">
+                <div class="Allcenter">
+                    <img class="Allcenter" style="left:44%" width="250" src="~/Content/IMG/Template/ring.gif" alt="Alternate Text" />
+                    <h3 class="Title text-uppercase" style="margin-top: 250px;" id="title-ring"> </h3>
+                </div>
+            </div>
+            <br />
+            @RenderBody()
+        </div>
+    </div>
+    <input id="urlGC" type="hidden" value="@System.Configuration.ConfigurationManager.AppSettings["urlGC"]">
+    @Scripts.Render("~/bundles/material")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/alerts")
+    @Scripts.Render("~/bundles/useful")
+    @Scripts.Render("~/Scripts/Class/login.js")
+    @Scripts.Render("~/bundles/notification")
+
+    <script>
+        //Ejemplo de notificacion
+        var n = {
+            title: 'Ejemplo de notificacion',
+            body: 'Este vato se anda saliendo compa!'
+        };
+        PushNotifications(n);
+        var data = {
+            url: 'https://youtube.com',
+            id: 0,
+            seen: false,
+            title: 'Ejemplo de notificacion',
+            body: 'Este vato se anda saliendo compa!',
+            date: '11 Sep. 08:00 am'
+
+        };
+        PushNotificationBar(data);
+        PushNotificationIndicator();
+    </script>
+</body>
+</html>
