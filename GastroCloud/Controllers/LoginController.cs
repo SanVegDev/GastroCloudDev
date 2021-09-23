@@ -19,7 +19,7 @@ namespace GastroCloud.Controllers
         {
             //Here, we have to validate user's ACL according to the selected app in order to get the correct path
             return Json(new {
-                path = "/Admin/Home",
+                path = "/Operating/Home",
                 success = true
             });
         }
